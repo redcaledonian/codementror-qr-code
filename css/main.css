@@ -1,0 +1,36 @@
+body {
+  margin: 1rem;
+  background: hsl(220deg, 15%, 55%);
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  display: grid;
+  align-items: center;
+  justify-items: center; /* adjusted */
+  height: 100vh;
+}
+
+div {
+  text-align: center;
+}
+
+.panel {
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 10px;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+@media only screen and (min-width: 600px) {
+  .panel {
+    width: 20em;
+  }
+}
+.panel img {
+  width: 100%;
+  border-radius: 10px;
+}
+.panel h1 {
+  font-size: 1.2em;
+}
+.panel h1, .panel p {
+  padding: 0 1.5em;
+}
