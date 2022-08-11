@@ -5,7 +5,7 @@ $dark-blue: hsl(218, 44%, 22%);
 
 body{
   margin: 1rem;
-  background: $grayish-blue;
+  background: $light-gray;
   font-family: 'Outfit', sans-serif;
   font-size: 15px;
   display: grid;
@@ -22,7 +22,7 @@ div{
   border-radius: 10px;
   padding: 1em;
   margin-bottom: 1em;
-  
+  filter: drop-shadow(4px 5px 1px #ddd);
 
   @media only screen and (min-width: 600px) {
     width:20em;
